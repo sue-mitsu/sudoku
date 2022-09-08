@@ -32,7 +32,7 @@ row = "A"
 while difficulty > 0:
     while True: # 入力行列が正当か
         column = input("列を小文字アルファベットで入力>>>")
-        row = input("列を大文字アルファベットで入力>>>")
+        row = input("行を大文字アルファベットで入力>>>")
         value = input("数字を入力>>>")
         if 0 <= ord(column) - 97 <= 8 and 0 <= ord(row) - 65 <= 8:
             break
